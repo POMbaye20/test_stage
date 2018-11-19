@@ -1,0 +1,51 @@
+body{
+    margin: 0; 
+    padding: 0;
+    color: #000;
+}
+
+
+
+/* div carousel à gauche avec les images */
+.carousel {
+    height: 100%; 
+    width: 100%;
+}
+
+/* la navigation */
+ul li{
+    list-style: none;
+    margin: 0 5vw;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vh auto;
+}
+
+.active { /* "Album" de la navigation */
+    border-bottom: 2px solid #000;
+}
+
+
+/* Partie musique */
+.music{
+    margin: 60vh 0 20vh 8vw;
+}
+
+/* Play */
+.tape{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+
+/* Barre */
+.barre_progress{
+    display: inline-block;
+    background: #000;
+    width: 90%;
+    height: 10px;
+}
